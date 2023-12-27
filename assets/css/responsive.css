@@ -1,0 +1,465 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .Dashboard-area .container {
+        max-width: 100%;
+    }
+
+    .main-menu {
+        padding-left: 16px;
+        padding-right: 20px;
+    }
+    
+    .main-menu ul li a {
+        gap: 10px;
+        padding: 20px 10px;
+    }
+    
+    .main-menu ul li a span {
+        font-size: 16px;
+    }
+    
+    .Dashboard-area .col-lg-3 {
+        width: 28%;
+    }
+    
+    .Dashboard-area .col-lg-9 {
+        width: 72%;
+    }
+    .Scheduling-top ul, .topNav ul {
+        gap: 15px;
+    }
+    
+    .time_btn button {
+        padding: 0 16px;
+    }
+    
+    .time_btn {
+        padding: 0 10px;
+    }
+    .Dashboard-area {
+        min-height: 600px;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .Dashboard-area {
+        min-height: 600px;
+    }
+    .main-menu {
+        position: absolute;
+        top: 0;
+        border-radius: 0;
+        padding-top: 100px;
+        z-index: 999;
+        visibility: hidden;
+        left: -500px;
+        width: 300px;
+    }
+
+.main-menu.rep_nav {
+    height: 100vh;
+    padding-top: 80px;
+}
+    
+    .src_box {
+        max-width: 240px;
+    }
+    .Scheduling-top ul, .topNav ul {
+        gap: 15px;
+    }
+    
+    .time_btn button {
+        padding: 0 16px;
+    }
+    
+    .time_btn {
+        padding: 0 10px;
+    }
+    .date_color ul li span {
+        font-size: 16px;
+    }
+    
+    .date_color ul {
+        gap: 15px;
+    }
+    
+    .date_color ul li {
+        gap: 10px;
+    }
+    
+    .date_color ul li i {
+        width: 24px;
+        height: 24px;
+    }
+    .EmployEdit-wrp .select_blk {
+        margin-top: auto;
+        margin-bottom: 20px;
+        height: 80px;
+    }
+    .Report_name_top {
+        gap: 30px;
+    }
+    
+    .Report_name {
+        gap: 10px;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .container{
+    max-width: 100%;
+}
+    .main-menu {
+        position: fixed;
+        top: 0;
+        border-radius: 0;
+        padding-top: 100px;
+        z-index: 999;
+        visibility: hidden;
+        left: -500px;
+        width: 100%;
+        height: 100vh !important;
+        z-index: 99999;
+    }
+
+.main-menu.rep_nav {
+    padding-top: 80px;
+}
+    .header-area {
+        padding: 15px 0px;
+        max-width: calc(100% - 24px);
+        margin: 25px auto 35px;
+        border-radius: 10px;
+    }
+    .logo-area span {
+        display: none;
+    }
+    
+    .logo-area img {
+        width: 70px;
+    }
+    .login_content {
+        width: 330px;
+    }
+    .Scheduling-top {
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 20px;
+        align-items: baseline;
+    }
+    
+    .Scheduling-top ul, .topNav ul {
+        width: 100%;
+    }
+
+.SalaryReport_nav .topNav ul {
+    width: max-content;
+    padding-right: 20px;
+}
+
+.SalaryReport_nav {
+    overflow: auto;
+    padding-bottom: 28px;
+}
+
+.Report_name_top {
+    flex-direction: column;
+    padding-right: 0;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.Report_name {
+    flex-direction: column;
+    gap: 7px;
+}
+
+.Report_name h4 {
+    padding-left: 0 !important;
+}
+    
+    .Scheduling-wrp h4 {
+        padding-left: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .table table {
+        min-width: 880px;
+    }
+    .login_content a.thm_btn {
+        height: 51px;
+        font-size: 14px;
+    }
+    
+    label.ckb {
+        font-size: 14px;
+        display: flex;
+        gap: 6px;
+        height: 36px;
+    }
+    
+    .login_content .input_blk input {
+        height: 57px;
+    }
+    
+    .login_content label {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .login_content .logo {
+        margin-bottom: 40px;
+    }
+
+    .Scheduling-table .table.table::-webkit-scrollbar{
+        display: none;
+    }
+    .time_btn button {
+        padding: 0 15px;
+    }
+    
+    .time_btn {
+        padding: 0 8px;
+        width: max-content;
+    }
+    
+    .calender_top {
+        padding-left: 20px;
+    }
+    
+    .calender_date {
+        padding-left: 50px;
+    }
+    
+    .calender_date .owl-nav {
+        width: 87%;
+    }
+    
+    .date_time_list ul li > div:first-child {
+        width: 103px;
+    }
+    
+    .date_time_list ul li h6 {
+    }
+    
+    .date_time_list ul li div {
+        flex-shrink: 0;
+    }
+    
+    .date_time_list ul li {
+        gap: 20px;
+    }
+    .dt_scroll{
+    overflow: auto;
+}
+
+.dt_scroll .date_color {
+    min-width: 880px;
+}
+
+.dt_scroll .date_time_list {
+    min-width: 850px;
+}
+.Scheduling-wrp {
+    margin-right: -12px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.Scheduling-wrp.System_wrp.v1 {
+    border-radius: 21px;
+    margin: unset;
+}
+
+.Scheduling-wrp.System_wrp .table table {
+    min-width: 440px;
+}
+
+.System_wrp .row {
+    padding-right: 30px;
+}
+.pagination_blk button {
+    font-size: 18px;
+}
+.pagination_blk ul{
+    gap: 15px;
+}
+.Schedul_popup {
+    padding: 30px 0;
+    padding-top: 50px;
+}
+
+.Schedul_popup .btn_grp {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Schedul_popup .btn_grp a {
+    width: 100% !important;
+}
+
+.Schedul_popup input {
+    height: 55px;
+    padding-left: 20px;
+}
+
+.Schedul_popup h4 {
+    font-size: 22px;
+}
+
+a.btn-close {
+    scale: .8;
+}
+.schedul_title h3 {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.src_box {
+    max-width: 100%;
+}
+
+.clock_top {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.clock_wrp {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: -12px;
+}
+.Employ_blk {
+    padding: 20px 30px;
+}
+
+.sell_blk {
+    margin: 10px 0;
+}
+.clock_popup.v2 ul{
+    flex-direction: column;
+}
+
+.clock_popup i {
+    width: 100px;
+    height: 100px;
+}
+
+.clock_popup i img {
+    scale: .8;
+}
+
+.clock_popup h4 {
+    font-size: 20px;
+}
+.mci{
+    margin-top: 20px;
+}
+.Customers-wrp .input_blk.flex {
+    flex-direction: column;
+    align-items: unset;
+}
+
+.Customers-wrp .select_blk.flex {
+    flex-direction: column;
+    align-items: unset !important;
+}
+.mci a{
+    margin-top: 20px;
+}
+
+.emp_popup {
+    padding: 30px 15px;
+}
+
+.EmployEdit-wrp .select_blk {
+    margin-top: auto;
+    margin-bottom: 20px;
+    height: 80px;
+}
+
+.EmployEdit-wrp a.thm_btn.v2 {
+    margin-top: 0;
+}
+
+.Coupon_content {
+    margin-bottom: 30px;
+}
+
+.EmployEdit-wrp.pb-0 .table table {
+    min-width: 560px;
+}
+
+.EmployEdit-wrp .Scheduling-table tr th:first-child, .EmployEdit-wrp .Scheduling-table tr td:first-child, .Employees_wrp .Scheduling-table tr th:first-child, .Employees_wrp .Scheduling-table tr td:first-child {
+    padding-left: 20px;
+}
+.Invoice_content {
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.Receipt-wrp .table table {
+    min-width: 590px;
+}
+
+.remit-blk > div {
+    flex-direction: column;
+}
+
+.remit-blk > div input {
+    height: 50px;
+}
+
+.remit-blk > div ul input {
+    height: 35px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.remit-blk h5 {}
+
+.remit-blk .input_blk {
+    margin-bottom: 0px;
+}
+
+.remit-blk {
+    padding-bottom: 20px;
+}
+.Report_top ul {
+    width: max-content;
+    gap: 25px;
+    padding-right: 20px;
+}
+
+.Report_top {
+    padding-left: 25px;
+    overflow: auto;
+}
+
+.Report_wrp {
+    margin-bottom: 20px;
+}
+.acc_Level {
+    flex-direction: column;
+}
+
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/* .container {width:450px} */
+ 
+}
